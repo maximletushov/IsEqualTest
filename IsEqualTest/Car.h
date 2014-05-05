@@ -11,4 +11,6 @@
 @interface Car : NSObject <NSCopying>
 
 @property (strong, nonatomic) NSString *carIdentifier;
+
+@property (strong, nonatomic) NSString *prop;
 @end
