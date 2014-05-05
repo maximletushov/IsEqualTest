@@ -10,6 +10,7 @@
 		C9D7B1841917AD2C00AB876E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D7B1831917AD2C00AB876E /* Foundation.framework */; };
 		C9D7B1871917AD2C00AB876E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D7B1861917AD2C00AB876E /* main.m */; };
 		C9D7B18B1917AD2C00AB876E /* IsEqualTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C9D7B18A1917AD2C00AB876E /* IsEqualTest.1 */; };
+		C9D7B1931917ADA700AB876E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D7B1921917ADA700AB876E /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		C9D7B1861917AD2C00AB876E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9D7B1891917AD2C00AB876E /* IsEqualTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IsEqualTest-Prefix.pch"; sourceTree = "<group>"; };
 		C9D7B18A1917AD2C00AB876E /* IsEqualTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IsEqualTest.1; sourceTree = "<group>"; };
+		C9D7B1911917ADA700AB876E /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		C9D7B1921917ADA700AB876E /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				C9D7B1861917AD2C00AB876E /* main.m */,
 				C9D7B18A1917AD2C00AB876E /* IsEqualTest.1 */,
 				C9D7B1881917AD2C00AB876E /* Supporting Files */,
+				C9D7B1911917ADA700AB876E /* Car.h */,
+				C9D7B1921917ADA700AB876E /* Car.m */,
 			);
 			path = IsEqualTest;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D7B1931917ADA700AB876E /* Car.m in Sources */,
 				C9D7B1871917AD2C00AB876E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
